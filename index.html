@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Github-finder</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header>
+			<div id="logo-btn">GitHub Finder</div>
+	</header>
+	<main>
+		<div id="top-section">
+			<h1 id="search">Search GitHub Users</h1>
+			<input id="search-input" placeholder="Enter a Github username"/>
+		</div>
+		<div id="main-container">
+			<div id="profile-container">
+				<div id="left">
+					<img id="user-avatar" src="assets/icons/github-mark.svg"/>
+					<a id="github-btn" href="https://github.com/github">GitHub Home</a>
+				</div>
+				<div id="right">
+					<div id="right-btns">
+						<button id="right-btn1" disabled>Public Repos: 505</button>
+						<button id="right-btn2" disabled>Public Gists: 0</button>
+						<button id="right-btn3" disabled>Followers: 46014</button>
+						<button id="right-btn4" disabled>Following: 0</button>
+					</div>
+					<ul id="right-lists">
+						<li id="right-profile">Company: GitHub</li>
+						<li id="right-profile">Blog: <a href="https://github.com/about">https://github.com/about</a></li>
+						<li id="right-profile">Location: San Francisco, CA</li>
+						<li id="right-profile">Member Since: October 19th, 2007</li>
+					</ul>
+				</div>
+			</div>
+			<div id="latest-repos">
+				<h1>Latest Repos</h1>
+				<ul id="repos-list">
+					<li id="repo">
+						<a id="repo-name" href="index.html">This is an example page.</a>
+						<div id="repo-btns">
+							<button id="repo-btn1" disabled>Stars: 1827</button>
+							<button id="repo-btn2" disabled>Watchers: 1827</button>
+							<button id="repo-btn3" disabled>Forks: 48</button>
+						</div>
+					</li>
+					<li id="repo">
+						<a id="repo-name" href="index.html">You can enter a username to search a GitHub user</a>
+						<div id="repo-btns">
+							<button id="repo-btn1" disabled>Stars: 442</button>
+							<button id="repo-btn2" disabled>Watchers: 442</button>
+							<button id="repo-btn3" disabled>Forks: 0</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>2024 Mag GitHub Finder ⓒ</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
